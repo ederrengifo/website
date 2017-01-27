@@ -1,0 +1,264 @@
+$lora: 'Lora', serif;
+$rubik: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$blue: #1533FF;
+$black: #000;
+$soft-black: #303030;
+$gray: rgba(0,0,0,0.33);
+$soft-gray: #F6F7FB;
+
+/* General */
+
+html, body {
+  background-color: $soft-gray;
+  color: #333;
+  font-family: $lora;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: circle;
+}
+
+h1 {
+  font-family: $rubik;
+  font-size: 40px;
+  color: $black;
+  line-height: 54px;
+  font-weight: 300;
+  text-align: left;
+}
+
+h2 {
+  font-family: $rubik;
+  font-size: 30px;
+  line-height: 40px;
+  color: $black;
+  font-weight: 400;
+}
+
+p {
+  font-family: $lora;
+  color: $soft-black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.material-icons.md-16 {
+  font-size: 16px;
+}
+
+.back {
+  color: $gray;
+  margin-right: 10px;
+  transition: all .25s ease;
+}
+.back-container {
+  color: $gray;
+}
+.back-container:hover {
+  color: $blue;
+}
+.back-container:hover .back {
+  margin-right: 25px;
+  color: $blue;
+}
+
+/* Layout styles */
+
+.wrapper {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, $soft-gray 50%, #FFF 50%);
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #FFF;
+}
+.logo-container {
+  margin-left: 135px;
+  padding-top: 100px;
+  text-align: left;
+}
+
+/* Index styles */
+
+.intro-container {
+  width: 100%;
+  text-align: left;
+  background: #FFF;
+}
+.intro {
+  padding: 100px 140px;
+  font-family: $rubik;
+  font-size: 40px;
+  color: $black;
+  line-height: 54px;
+  font-weight: 300;
+  margin: 0;
+  box-sizing:border-box;
+}
+.intro span a {
+  text-decoration: underline;
+  color: $black;
+  transition: all .25s ease;
+  margin-bottom: -5px;
+  padding-bottom: -10px;
+}
+.intro span a:hover {
+  text-decoration: none;
+  color: $blue;
+}
+.intro-detail {
+  padding: 100px 140px;
+  font-family: $rubik;
+  font-size: 32px;
+  color: $black;
+  line-height: 54px;
+  font-weight: 300;
+  margin: 0;
+  box-sizing:border-box;
+}
+.intro-detail span a {
+  text-decoration: underline;
+  color: $black;
+  transition: all .25s ease;
+  margin-bottom: -5px;
+  padding-bottom: -10px;
+}
+.intro-detail span a:hover {
+  text-decoration: none;
+  color: $blue;
+}
+.menu-container {
+  width: 100%;
+  padding: 0px 140px 20px 140px;
+  text-align: left;
+  box-sizing:border-box;
+}
+.menu {
+  width: 100%;
+}
+.menu ul {
+  display: inline-block;
+  list-style: none;
+}
+.menu ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 48px;
+  font-family: $rubik;
+  color: $gray;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all .25s ease;
+  cursor: pointer;
+}
+.menu a {
+  transition: all .25s ease;
+}
+.menu a:hover li {
+  color: $blue;
+}
+
+a.active li {
+  color: $blue;
+  border-bottom: 2px solid $blue;
+}
+
+.highlights-container {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.highlight-entrie {
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.highlight-entrie h1 {
+  padding: 0px 140px;
+  text-align: left;
+  box-sizing:border-box;
+}
+.highlight-entrie h2 {
+  padding: 0px 140px;
+  text-align: left;
+  box-sizing:border-box;
+}
+.highlight-entrie h2 a:hover {
+  text-decoration: underline;
+}
+.highlight-entrie p {
+  padding: 5px 140px;
+  text-align: left;
+  box-sizing:border-box;
+}
+.highlight-entrie p img.big {
+  width: 147%;
+  padding: 5px 0px;
+  margin-left: -175px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+  box-sizing:border-box;
+}
+.highlight-entrie p img.shot {
+  width: auto;
+  padding: 5px 0px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+  box-sizing:border-box;
+}
+.read-more{
+  text-align: left;
+  padding: 5px 140px;
+  text-transform: uppercase;
+  font-family: $rubik;
+  font-size: 14px;
+  color: $gray;
+  text-decoration: none;
+  cursor: pointer;
+  box-sizing:border-box;
+}
+.read-more a {
+  transition: all .25s ease;
+  color: $gray;
+}
+.read-more a i {
+  transition: all .25s ease;
+}
+.read-more:hover {
+  color: $blue;
+}
+.read-more:hover a.more {
+  color: $blue;
+}
+.read-more:hover a.more i {
+  color: $blue;
+  margin-left: 15px;
+}
+.more-icon {
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+}

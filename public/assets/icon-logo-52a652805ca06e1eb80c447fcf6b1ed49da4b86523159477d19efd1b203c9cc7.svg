@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="51px" height="30px" viewBox="0 0 51 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="31.2890625%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D519FF" offset="0%"></stop>
+            <stop stop-color="#1937FF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="25 0 40 30 10 30"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-3" transform="translate(-404.000000, -120.000000)">
+            <g id="icon-logo" transform="translate(404.000000, 120.000000)">
+                <g id="Triangle">
+                    <use fill="#1937FF" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <polygon id="Line" fill="#1937FF" points="0 16 51 16 51 15 0 15"></polygon>
+                <polygon id="Line-Copy" fill="#FFFFFF" points="17 16 32.5602198 16 32.5602198 15 17 15"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

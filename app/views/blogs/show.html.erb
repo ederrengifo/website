@@ -1,0 +1,22 @@
+<div class="intro-container">
+  <div class="intro-detail">
+    <span><a href="<%= blogs_path(@blogs) %>" class="back-container"><i class="material-icons back">arrow_back</i></a>Back</span>
+  </div>
+</div>
+<div class="menu-container">
+  <div class="menu">
+    <ul>
+      <a class="active" href="<%= blogs_path(@blogs) %>"><li>Highlights</li></a>
+      <a><li>About me</li></a>
+      <a><li>Dribbble</li></a>
+      <a><li>Medium</li></a>
+      <a><li>LinkedIn</li></a>
+    </ul>
+  </div>
+</div>
+<div class="highlights-container">
+  <div class="highlight-entrie">
+    <h1><%= @blog.title %></h1>
+    <p><%= simple_format(@blog.detail.html_safe) %></p>
+  </div>
+</div>
