@@ -93,6 +93,7 @@ p {
   max-width: 1000px;
   margin: 0 auto;
   background: #FFF;
+  box-shadow: -10px 14px 14px 0 rgba(0,0,0,0.03);
 }
 .logo-container {
   margin-left: 135px;
@@ -299,4 +300,52 @@ div.read-more {
   position: relative;
   top: 3px;
   margin-left: 10px;
+}
+
+/* Forms */
+
+.form-container {
+  padding: 0px 140px;
+  text-align: left;
+  box-sizing:border-box;
+}
+.field {
+  width: 100%;
+  text-align: left;
+}
+.field label {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-family: $rubik;
+  font-weight: 400;
+}
+.field input, textarea {
+  width: 100%;
+  font-family: $lora;
+  font-size: 18px;
+  line-height: 34px;
+  padding: 10px 15px;
+  border: 1px solid #FFF;
+  margin-bottom: 30px;
+  background-color: #FFF;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.15);
+  transition: all .25s ease;
+}
+.field input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.30);
+}
+.actions input {
+  color: $blue;
+  cursor: pointer;
+  font-family: $rubik;
+  font-size: 16px;
+  border: 1px solid $blue;
+  background: #FFF;
+  padding: 10px 25px;
+  transition: all .25s ease;
+}
+.actions input:hover {
+  background: $blue;
+  color: #FFF;
 }

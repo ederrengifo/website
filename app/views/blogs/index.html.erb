@@ -1,9 +1,9 @@
-<div class="intro-container">
+<div class="intro-container animated fadeInRight">
   <div class="intro">
     <span>Hi, I'm Eder Rengifo.<br><a href="https://dribbble.com/ederrengifo" target="_blank">Designer</a>, amateur <a href="https://github.com/ederrengifo" target="_blank">coder</a>, <a href="https://medium.com/@ederrengifo" target="_blank">writer</a> <br>and I also like to make <a href="https://open.spotify.com/artist/14hnNArAo2xat2a89Uyoze" target="_blank">music.</a></span>
   </div>
 </div>
-<div class="menu-container">
+<div class="menu-container animated fadeInDown">
   <div class="menu">
     <ul>
       <a class="active" href="<%= blogs_path(@blogs) %>"><li>Highlights</li></a>
@@ -14,7 +14,7 @@
     </ul>
   </div>
 </div>
-<div class="highlights-container">
+<div class="highlights-container animated fadeIn">
   <% @blogs.each do |blog| %>
   <div class="highlight-entrie">
     <h2><a href="<%= blog_path(blog) %>"><%= blog.title %></a></h2>
