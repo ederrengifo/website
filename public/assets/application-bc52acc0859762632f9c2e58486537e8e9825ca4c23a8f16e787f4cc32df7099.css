@@ -1,0 +1,500 @@
+@charset "UTF-8";
+/* General */
+/* line 11, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+html, body {
+  background-color: #F6F7FB;
+  color: #333;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/* line 24, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 27, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+a:hover  {
+  text-decoration: none;
+}
+
+/* line 30, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: inherit;
+}
+
+/* line 33, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: circle;
+}
+
+/* line 39, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+h1 {
+  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  color: #000;
+  line-height: 54px;
+  font-weight: 300;
+  text-align: left;
+}
+
+/* line 48, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+h2 {
+  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000;
+  font-weight: 400;
+}
+
+/* line 56, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+p {
+  font-family: "Lora", serif;
+  color: #303030;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+/* line 64, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.material-icons.md-16 {
+  font-size: 16px;
+}
+
+/* line 68, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.back {
+  color: rgba(0, 0, 0, 0.33);
+  margin-right: 10px;
+  transition: all .25s ease;
+}
+
+/* line 73, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.back-container {
+  color: rgba(0, 0, 0, 0.33);
+}
+
+/* line 76, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.back-container:hover {
+  color: #1533FF;
+}
+
+/* line 79, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.back-container:hover .back {
+  margin-right: 25px;
+  color: #1533FF;
+}
+
+/* Layout styles */
+/* line 86, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.wrapper {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #F6F7FB 50%, #FFF 50%);
+}
+
+/* line 92, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #FFF;
+}
+
+/* line 97, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.logo-container {
+  margin-left: 135px;
+  padding-top: 100px;
+  text-align: left;
+}
+
+/* Index styles */
+/* line 105, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.intro-container {
+  width: 100%;
+  text-align: left;
+  background: #FFF;
+}
+
+/* line 110, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.intro {
+  padding: 100px 140px;
+  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  color: #000;
+  line-height: 54px;
+  font-weight: 300;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 120, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.intro span a {
+  text-decoration: underline;
+  color: #000;
+  transition: all .25s ease;
+  margin-bottom: -5px;
+  padding-bottom: -10px;
+}
+
+/* line 127, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.intro span a:hover {
+  text-decoration: none;
+  color: #1533FF;
+}
+
+/* line 131, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.intro-detail {
+  padding: 100px 140px;
+  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  color: #000;
+  line-height: 54px;
+  font-weight: 300;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 141, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.intro-detail span a {
+  text-decoration: underline;
+  color: #000;
+  transition: all .25s ease;
+  margin-bottom: -5px;
+  padding-bottom: -10px;
+}
+
+/* line 148, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.intro-detail span a:hover {
+  text-decoration: none;
+  color: #1533FF;
+}
+
+/* line 152, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.menu-container {
+  width: 100%;
+  padding: 0px 140px 20px 140px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* line 158, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.menu {
+  width: 100%;
+}
+
+/* line 161, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.menu ul {
+  display: inline-block;
+  list-style: none;
+}
+
+/* line 165, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.menu ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 48px;
+  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.33);
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all .25s ease;
+  cursor: pointer;
+}
+
+/* line 176, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.menu a {
+  transition: all .25s ease;
+}
+
+/* line 179, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.menu a:hover li {
+  color: #1533FF;
+}
+
+/* line 183, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+a.active li {
+  color: #1533FF;
+  border-bottom: 2px solid #1533FF;
+}
+
+/* line 188, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlights-container {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+/* line 193, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie {
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+/* line 197, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie h1 {
+  padding: 0px 140px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* line 202, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie h2 {
+  padding: 0px 140px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* line 207, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie h2 a:hover {
+  text-decoration: underline;
+}
+
+/* line 210, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie p {
+  padding: 5px 140px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* line 215, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie p a {
+  text-decoration: underline;
+}
+
+/* line 218, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie p a:hover {
+  text-decoration: none;
+  color: #1533FF;
+}
+
+/* line 222, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie p img.big {
+  width: 147%;
+  padding: 5px 0px;
+  margin-left: -175px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* line 231, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie p img.shot {
+  width: auto;
+  padding: 5px 0px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* line 239, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie p img.shot-profile {
+  max-width: 320px;
+  padding: 5px 0px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* line 247, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie div {
+  padding: 0px 160px;
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+/* line 254, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie div ul {
+  text-align: left;
+  padding: 0px;
+  margin: 0;
+}
+
+/* line 259, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie div ul li {
+  text-align: left;
+  padding-left: 15px;
+}
+
+/* line 263, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie div ul li a {
+  text-decoration: underline;
+}
+
+/* line 266, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.highlight-entrie div ul li a:hover {
+  text-decoration: none;
+  color: #1533FF;
+}
+
+/* line 270, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+div.read-more {
+  text-align: left;
+  padding: 5px 140px;
+  text-transform: uppercase;
+  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.33);
+  text-decoration: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* line 281, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.read-more a {
+  transition: all .25s ease;
+  color: rgba(0, 0, 0, 0.33);
+}
+
+/* line 285, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.read-more a i {
+  transition: all .25s ease;
+}
+
+/* line 288, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.read-more:hover {
+  color: #1533FF;
+}
+
+/* line 291, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.read-more:hover a.more {
+  color: #1533FF;
+}
+
+/* line 294, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.read-more:hover a.more i {
+  color: #1533FF;
+  margin-left: 15px;
+}
+
+/* line 298, /Users/ederrengifo/Code/web/Web/app/assets/stylesheets/scaffolds.scss */
+.more-icon {
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+ /*
+
+ */
+
+/*
+ * CSS File of Material icons.
+ * CSS code based on:
+ * https://google.github.io/material-design-icons/#icon-font-for-the-web
+ */
+
+
+
+
+
+
+/* Use the font */
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/MaterialIcons-Regular-8c998b4a9c0acbb9fe5dd572c206a5a33fdd5ca2b58db87fc3b893beac85068d.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url('/assets/MaterialIcons-Regular-a87d66c91b2e7dc5530aef76c03bd6a3d25ea5826110bf4803b561b811cc8726.woff2') format('woff2'),
+       url('/assets/MaterialIcons-Regular-c4a1baec300d09e03a8380b85918267ee80faae8e00c6c56b48e2e74b1d9b38d.woff') format('woff'),
+       url('/assets/MaterialIcons-Regular-b7f4a3ab562048f28dd1fa691601bc43363a61d0f876d16d8316c52e4f32d696.ttf') format('truetype');
+}
+
+/* Base class */
+.material-icons,
+.mi {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18, .mi.md-18 { font-size: 18px; }
+.material-icons.md-24, .mi.md-24 { font-size: 24px; }
+.material-icons.md-36, .mi.md-36 { font-size: 36px; }
+.material-icons.md-48, .mi.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark, .mi.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive, .mi.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light, .mi.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive, .mi.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/* Rules to rotate items */
+.material-icons.r90, .mi.r90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.material-icons.r180, .mi.r180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.material-icons.r270, .mi.r270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.material-icons.flip-horizontal, .mi.flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.material-icons.flip-vertical, .mi.flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
