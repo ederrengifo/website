@@ -205,8 +205,12 @@ a.active li {
   text-align: left;
   box-sizing:border-box;
 }
+.highlight-entrie h2 a {
+  color: $black;
+}
 .highlight-entrie h2 a:hover {
   text-decoration: underline;
+  color: $black;
 }
 .highlight-entrie p {
   padding: 5px 140px;
